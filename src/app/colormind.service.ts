@@ -8,7 +8,7 @@ export class ColormindService {
   constructor(private http: HttpClient) {}
 
   getColors(model, input, lock) {
-    const url = 'http://colormind.io/api/';
+    const url = 'https://colormind.io/api/';
     let data;
     if (lock) {
       data = {
